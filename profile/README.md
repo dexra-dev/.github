@@ -11,8 +11,10 @@ Dexra answers the questions an AI agent should ask before it trades on Solana. E
 ## Connect
 
 ```sh
-claude mcp add --transport http dexra https://api.dexra.dev/mcp
+npx -y @dexra-dev/mcp install
 ```
+
+This adds Dexra to every MCP client it finds: Claude Code, Claude Desktop, Cursor, VS Code, Codex, Windsurf, Gemini CLI, Antigravity and Cline. Add `--key dxr_...` to use a subscription.
 
 - MCP: `https://api.dexra.dev/mcp` (Streamable HTTP). Configs for every client: [dexra-dev/mcp](https://github.com/dexra-dev/mcp)
 - REST and x402 catalog: `https://api.dexra.dev/.well-known/x402`

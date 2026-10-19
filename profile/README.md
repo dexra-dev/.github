@@ -23,6 +23,21 @@ This adds Dexra to every MCP client it finds: Claude Code, Claude Desktop, Curso
 
 Free tools work without an account. Paid tools cost 0.005–0.03 USDC per call over [x402](https://x402.org), or come with a subscription: Pro, Scale and Business plans with daily credits, monthly or yearly, at https://dexra.dev.
 
+## Agent templates
+
+Agents that trade on Solana and ask Dexra before every buy. Each is a GitHub template, runs as a dry run until you turn live trading on, and trades through the Jupiter Swap API. Guide: https://dexra.dev/docs/templates
+
+| Template | Framework |
+|---|---|
+| [template-elizaos](https://github.com/dexra-dev/template-elizaos) | elizaOS |
+| [template-hermes](https://github.com/dexra-dev/template-hermes) | Hermes Agent (skill + MCP server) |
+| [template-solana-agent-kit](https://github.com/dexra-dev/template-solana-agent-kit) | Solana Agent Kit |
+| [template-vercel-ai-sdk](https://github.com/dexra-dev/template-vercel-ai-sdk) | Vercel AI SDK |
+| [template-claude-agent-sdk](https://github.com/dexra-dev/template-claude-agent-sdk) | Claude Agent SDK |
+| [template-openai-agents](https://github.com/dexra-dev/template-openai-agents) | OpenAI Agents SDK (Python) |
+| [template-langgraph](https://github.com/dexra-dev/template-langgraph) | LangGraph (Python) |
+| [template-launch-bot](https://github.com/dexra-dev/template-launch-bot) | No LLM: a launch bot |
+
 ## Packages
 
 - [`@dexra-dev/mcp`](https://www.npmjs.com/package/@dexra-dev/mcp): add Dexra to Claude, Cursor, VS Code and other MCP clients
